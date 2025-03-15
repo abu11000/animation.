@@ -1,0 +1,18 @@
+div{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(39, 39, 124);
+    margin-top: 300px;
+    animation-name: example;
+    animation-delay: 0.1s;
+    animation-duration: 19s;
+}
+@keyframes example {
+      from{
+        margin-left: 0px;
+        
+      }    
+      to{
+        margin-left: 100%   ;
+      }
+}
